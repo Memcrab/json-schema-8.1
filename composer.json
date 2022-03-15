@@ -1,5 +1,5 @@
 {
-    "name": "opis/json-schema",
+    "name": "memcrab/json-schema",
     "description": "Json Schema Validator for PHP",
     "keywords": [
         "json",
@@ -18,7 +18,16 @@
         {
             "name": "Marius Sarca",
             "email": "marius.sarca@gmail.com"
+        },
+        {
+            "name": "Oleksandr Diudiun",
+            "email": "a.diudiun@gmail.com"
+        },
+        {
+            "name": "Evhen Borsch",
+            "email": "b0980652405@gmail.com"
         }
+        
     ],
     "require": {
         "php": "^7.4 || ^8.0",
@@ -33,12 +42,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Opis\\JsonSchema\\": "src/"
+            "memCrab\\JsonSchema\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Opis\\JsonSchema\\Test\\": "tests/"
+            "memCrab\\JsonSchema\\Test\\": "tests/"
         }
     },
     "extra": {
